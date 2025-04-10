@@ -14,7 +14,7 @@ An interactive and modern web app built with **Streamlit** to estimate house pri
 
 ## 🖼️ Preview
 
-![App Screenshot](https://github.com/yourusername/house-price-prediction/blob/main/images/preview.png)
+![App Screenshot](https://github.com/rathour-anushka/House-price-prediction/blob/main/Screenshot%202025-04-10%20204657.png)
 
 ---
 ## 🔗 Live Demo
