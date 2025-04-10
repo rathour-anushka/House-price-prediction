@@ -7,8 +7,7 @@ An interactive and modern web app built with **Streamlit** to estimate house pri
 - 🔮 Predict house prices using a trained LightGBM model.
 - 🎨 Elegant UI with feature cards, icons, and a responsive layout.
 - 🌐 Interactive navigation and smooth page transitions.
-- 🗺️ Location-based prediction with optional map integration.
-- 📷 Inputs shown as cards with images and 0/1 explanations (Yes/No).
+- 🗺️ Location-based prediction .
 
 ---
 
