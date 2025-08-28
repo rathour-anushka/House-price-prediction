@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 # Load model
-model = joblib.load("lightgbm_model.pkl")
+model = joblib.load("model\lightgbm_model.pkl")
 
 # Page Config
 st.set_page_config(page_title="House Price Estimator", layout="wide")
@@ -59,7 +59,7 @@ page = st.session_state.page
 
 
 # Load Banner
-banner = Image.open("image.jpg")  # replace with your house image
+banner = Image.open("data\image.jpg")  # replace with your house image
 
 # Custom CSS
 st.markdown("""
@@ -120,7 +120,7 @@ if page == "🏠 Home":
         """, unsafe_allow_html=True)
 
     with col2:
-        st.image(banner, use_container_width =True)
+        st.image(banner)
 
     st.markdown("---")
 
