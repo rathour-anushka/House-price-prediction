@@ -3,10 +3,12 @@ import pandas as pd
 import numpy as np
 import joblib
 from PIL import Image
+import os
 import matplotlib.pyplot as plt
 
 # Load model
-model = joblib.load("model\lightgbm_model.pkl")
+model_path = os.path.join("model", "lightgbm_model.pkl")
+model = joblib.load(model_path)
 
 # Page Config
 st.set_page_config(page_title="House Price Estimator", layout="wide")
@@ -59,7 +61,8 @@ page = st.session_state.page
 
 
 # Load Banner
-banner = Image.open("data\image.jpg")  # replace with your house image
+banner_path = os.path.join("data", "image.jpg")
+banner = Image.open(banner_path)  # replace with your house image
 
 # Custom CSS
 st.markdown("""
