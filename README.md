@@ -18,7 +18,7 @@ An interactive and modern web app built with **Streamlit** to estimate house pri
 ---
 ## 🔗 Live Demo
 
-👉 Check out the live demo here: [https://house-price-prediction-know-your-home-worth.streamlit.app/)
+👉 Check out the live demo here: [https://know-your-house-worth.streamlit.app/)
 
 
 ## 🧰 Tech Stack
